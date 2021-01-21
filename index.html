@@ -1,1 +1,13 @@
-Hello World
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<script src="js/client.min.js"></script>
+</head>
+<body>
+    <script>
+        var client = new ClientJS(); // Create A New Client Object
+        var fingerprint = client.getFingerprint(); // Calculate Device/Browser Fingerprint
+        alert( fingerprint );
+    </script>    
+</body>
+</html>
