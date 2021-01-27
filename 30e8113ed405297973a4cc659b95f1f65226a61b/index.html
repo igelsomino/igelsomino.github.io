@@ -125,8 +125,6 @@
                     success : function(data) {
                         $("#login").hide();
                         $("#content").load(url);
-
-                        //window.location = url;        
                     },
                     error : function(xhr, ajaxOptions, thrownError) {
                         parent.location.hash= hash;    
